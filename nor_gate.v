@@ -24,7 +24,7 @@ module nor_gate(input a,b, output reg y);
   end
 endmodule
 
-//testbench and_gate
+//testbench nor_gate
 
 include "nor_gate.v"
 module tb();
