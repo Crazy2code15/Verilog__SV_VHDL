@@ -24,7 +24,7 @@ module nand_gate(input a,b, output reg y);
   end
 endmodule
 
-//testbench and_gate
+//testbench nand_gate
 
 include "nand_gate.v"
 module tb();
