@@ -31,7 +31,6 @@ include "or_gate.v"
 module tb();
   reg ta,tb;
   wire ty;
-  integer i;
   
   or_gate dut(ta,tb,ty);
   initial begin
