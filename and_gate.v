@@ -15,7 +15,7 @@ endmodule
 //Behavioural Modelling
 
 module and_gate(input a,b, output reg y);
-  always @(a and b) begin
+  always @(a or b) begin
     if (a==1'b1 and b==1'b1)begin
       y=1'b1;
     end
