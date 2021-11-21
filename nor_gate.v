@@ -1,4 +1,4 @@
-// and_gate Verilog code
+// nor_gate Verilog code
 
 //Data flow modelling
 
