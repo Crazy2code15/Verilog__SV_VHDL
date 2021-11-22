@@ -45,3 +45,9 @@ Verilog Codes
   
   <p align="center">
    <img src="https://www.researchgate.net/profile/Shyam_Akashe/publication/257799438/figure/fig3/AS:341731565424655@1458486562907/Transmission-gate-graphical-symbol-a-truth-table-b.png" width="300" height="200" /></p>
+   
+   
+   <li> Tristate Buffer | <a href="https://github.com/Crazy2code15/Verilog/blob/main/tristate_buffer.v">Verilog code</a>  </li> 
+  
+  <p align="center">
+   <img src="https://i.ytimg.com/vi/X2HPjppH7Rs/maxresdefault.jpg" width="300" height="200" /></p>
