@@ -15,31 +15,31 @@ module tb();
   wire f;
   tristate_buffer dut(a,c,f);
   initial begin
-    $display ("RESULT\ta\ty");
+	  $display ("RESULT\ta\tf");
 
-		a = 0; c = 0; 
-    # 100; if ( f === 1'bz ) // Test for inversion
-      $display ("PASS\t%d\t%d",a,f);
-		else
-      $display ("FAIL\t%d\t%d",a,f);
+	a = 0; c = 0; # 100; 
+	  if ( f === 1'bz ) // Test for inversion
+      		$display ("PASS\t%d\t%d",a,f);
+	  else
+      		$display ("FAIL\t%d\t%d",a,f);
 
-		a = 0; c = 1; 
-    # 100; if ( y === 0 ) // Test for inversion
-      $display ("PASS\t%d\t%d",a,f);
-		else
-      $display ("FAIL\t%d\t%d",a,f);
+	a = 0; c = 1; # 100; 
+	  if ( f === 0 ) // Test for inversion
+      		$display ("PASS\t%d\t%d",a,f);
+	  else
+      		$display ("FAIL\t%d\t%d",a,f);
 
-		a = 1; c = 0; 
-    # 100; if ( y === 1'bz ) // Test for inversion
-      $display ("PASS\t%d\t%d",a,f);
-		else
-      $display ("FAIL\t%d\t%d",a,f);
+	a = 1; c = 0; # 100; 
+	  if ( f === 1'bz ) // Test for inversion
+      		$display ("PASS\t%d\t%d",a,f);
+	  else
+      		$display ("FAIL\t%d\t%d",a,f);
 
-		a = 1; c = 1; 
-    # 100; if ( y === 1 ) // Test for inversion
-      $display ("PASS\t%d\t%d",a,f);
-		else
-      $display ("FAIL\t%d\t%d",a,f);
+	a = 1; c = 1; # 100; 
+	  if ( f === 1 ) // Test for inversion
+		  $display ("PASS\t%d\t%d",a,f);
+	  else
+		  $display ("FAIL\t%d\t%d",a,f);
 
 	end
   
