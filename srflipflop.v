@@ -25,17 +25,17 @@ endmodule
 
 // TestBench SR flipflop
 
-include "srflipflop.v"
-module tb();
-  wire q, qbar;
-  reg clk, rst;
-  reg [1:0] sr;
+
+
+
+
+
   
-  srflipflop dut(q,qbar,clk,rst,sr);
-  always #5 clk = !clk;
+
+
   
-  initial begin
-    clk = 1'b0;
-    rst = 1; #5; rst = 0; #5;
+
+
+
     
-    $display("")
+
