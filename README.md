@@ -76,5 +76,23 @@ Verilog Codes
   <p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Negative-edge_triggered_master_slave_D_flip-flop.svg/1200px-Negative-edge_triggered_master_slave_D_flip-flop.svg.png" width="300" height="200" /></p>
    
+   <li> Serial Adder | <a href="">Verilog code</a>  </li>
+   <li> 4bit-Synchronous Counter | <a href="">Verilog code</a>  </li>
+   <li> 4bit-Asynchronous Counter | <a href="">Verilog code</a>  </li>
+   <li> 8bit Ripple Carry Adder | <a href="">Verilog code</a>  </li>
+   <li> 8bit Look Ahead Carry Adder | <a href="">Verilog code</a>  </li>
+   <li> 8bit Skip Carry Adder | <a href="">Verilog code</a>  </li>
+   <li> 4bit BCD Adder and Substractor | <a href="">Verilog code</a>  </li>
+   <li> 4x4 Unsigned Array Multiplier | <a href="">Verilog code</a>  </li>
+   <li> 4x4 Booth Multiplier | <a href="">Verilog code</a>  </li>
+   <li> 4-bit Magnitude Comparator | <a href="">Verilog code</a>  </li>
+   <li> 4-bit LFSR | <a href="">Verilog code</a>  </li>
+   <li> 4-bit Parity Generator | <a href="">Verilog code</a>  </li>
+   <li> 4-bit Universal Shift Register | <a href="">Verilog code</a>  </li>
+   <li> FSM to detect sequence 1110 (Meleay with Overlap) | <a href="">Verilog code</a>  </li>
+   <li> FSM to detect sequence 1110 (Moore with Overlap) | <a href="">Verilog code</a>  </li>
+   <li> FIFO buffer | <a href="">Verilog code</a>  </li>
+   <li> LIFO buffer | <a href="">Verilog code</a>  </li>
+   <li> 3-bit Arbiter | <a href="">Verilog code</a>  </li>
    
    </ol>
