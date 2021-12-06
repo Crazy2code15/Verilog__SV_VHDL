@@ -49,8 +49,7 @@ module tb();
   initial begin
     $monitor("@time %3d : when input is %b output is %b",$time,i,y);
     for (x=0; x <16; x=x+1) begin
-      i=x;
-      #5;
+      i=x;#100;
     end
     $finish;
   end
