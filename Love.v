@@ -4,7 +4,7 @@ module love(
   input feeling,
   output reg Love);
 
-// Data modelling
+// Dataflow modelling
 always@(*) begin
 Love <= Care && Understanding && feeling;
 end
