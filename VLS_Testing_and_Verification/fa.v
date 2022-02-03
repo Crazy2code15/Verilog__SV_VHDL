@@ -13,25 +13,41 @@ endmodule
 module tb;
 
     // Inputs
-    reg a; b; c; d; s0; s1;
+    reg a; b; c;
 
     // Outputs
-    wire y;
+    wire s; cy;
 
     // Instantiate the Unit Under Test (UUT)
-    mux41 uut (.a(a), .b(b), .c(c), .d(d), .s0(s0), .s1(s1), .y(y));
+    fa uut (.a(a), .b(b), .c(c), .s(s), .cy(cy));
 
     initial begin
         // Initialize Inputs
-        a = 0; b = 0; c = 0; d = 1; s0 = 0; s1 = 0;
+        a = 0; b = 0;c = 0;
+        // Wait 100 ns for global reset to finish
         #20;
-        a = 0; b = 0; c = 0; d = 1; s0 = 0; s1 = 1;
+        a = 0; b = 0;c = 1;
+        // Wait 100 ns for global reset to finish
         #20;
-        a = 0; b = 0; c = 0; d = 1; s0 = 1; s1 = 0;
+        a = 0; b = 1;c = 0;
+        // Wait 100 ns for global reset to finish
         #20;
-        a = 0; b = 0; c = 0; d = 1; s0 = 1; s1 = 1;
-        end
-initial begin 
-$monitor ($time , "a=%b, b=%b, c=%b, s0=%b, S1=%b", a,b,c,s0,s1);
-End
+        a = 0; b = 1;c = 1;
+        // Wait 100 ns for global reset to finish
+        #20;
+      a = 1; b = 0;c = 0;
+        // Wait 100 ns for global reset to finish
+        #20;
+        a = 1; b = 0;c = 1;
+        // Wait 100 ns for global reset to finish
+        #20;
+        a = 1; b = 1;c = 0;
+        // Wait 100 ns for global reset to finish
+        #20;
+        a = 1; b = 1;c = 1;
+        // Wait 100 ns for global reset to finish
+        #20;
+    end
+    initial begin $monitor($time, "a=%b, b=%b, c=%b, s=%b, cy=%b", a,b,c,s,cy);end
 endmodule
+
