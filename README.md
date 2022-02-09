@@ -1,1 +1,1 @@
-# Verilog Codes and system verilog codes
+# Verilog and system verilog codes
