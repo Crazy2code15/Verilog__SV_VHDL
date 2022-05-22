@@ -16,7 +16,11 @@ class monitor;
     trans.s = vif.s;
     trans.cy = vif.cy;
     mon2scb.put(trans);
+<<<<<<< HEAD
+    trans.display("***************Monitor*****************");
+=======
     trans.display("Monitor");
+>>>>>>> 6a47234895e395691d0502c6371e9aa387a2cde3
     
   endtask
   

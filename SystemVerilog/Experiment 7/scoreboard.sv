@@ -14,7 +14,11 @@ class scoreboard;
       $display("Success");
     else 
       $error("Wrong Result");
+<<<<<<< HEAD
+    trans.display("**************Scoreboard**************");
+=======
     trans.display("Scoreboard");
+>>>>>>> 6a47234895e395691d0502c6371e9aa387a2cde3
   endtask
   
 endclass

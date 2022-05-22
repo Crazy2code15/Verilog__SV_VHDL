@@ -15,7 +15,11 @@ class driver;
     vif.b <= trans.b;
     trans.s = vif.s;
     trans.cy = vif.cy;
+<<<<<<< HEAD
+    trans.display("****************Driver****************");
+=======
     trans.display("Driver");
+>>>>>>> 6a47234895e395691d0502c6371e9aa387a2cde3
   endtask
   
 endclass

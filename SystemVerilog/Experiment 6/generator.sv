@@ -9,7 +9,11 @@ class generator;
   task main();
     trans = new();
     trans.randomize();
+<<<<<<< HEAD
+    trans.display("*************Generator***************");
+=======
     trans.display("Generator");
+>>>>>>> 6a47234895e395691d0502c6371e9aa387a2cde3
     gen2driv.put(trans);
   endtask
   
